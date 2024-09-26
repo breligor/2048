@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "css-loader": "^7.1.2",
     "eslint-plugin-autofix": "^2.2.0",
     "eslint-plugin-node": "^11.1.0",
+    "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.0",

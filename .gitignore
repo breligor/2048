@@ -148,7 +148,7 @@ dist
 Thumbs.db
 
 # Assembly
-/dist
-/build
-/dist/bundle.js
-/src/bundle.js
+#/dist
+#/build
+#/dist/bundle.js
+#/src/bundle.js

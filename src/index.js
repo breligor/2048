@@ -15,7 +15,7 @@ winScoreRange.addEventListener('input', (e) => {
     game = new Game(canvas, winScore);
     setTimeout(() => {
         winScoreRange.blur();
-    }, 0); // Устанавливаем задержку на 0 мс
+    }, 0);
 });
 
 let game = new Game(canvas, winScore);

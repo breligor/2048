@@ -25,6 +25,10 @@ export function getTileColor(value) {
         512: '#f3c54b',
         1024: '#f2c138',
         2048: '#f2bd28',
+        4096: '#aff228',
+        8192: '#709c15',
+        16384: '#4d6a18',
+        32768: '#8a2ea4',
     };
 
     return tileColors[value] || '#cfc0af';
@@ -40,6 +44,6 @@ export function getScoreText(score) {
     if (score === 32 || score === 64) {
         return `очка`;
     }
-    
-return `очков`;
+
+    return `очков`;
 }
